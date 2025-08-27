@@ -1,0 +1,29 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: rgb(45, 45, 45);
+    font-size: 12px;
+    font-family: 'Arial';
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.card img{
+    border-radius: 10px;
+    height: 140px;
+    width: 260px;
+}
+
+.card h2{
+    margin: 0;
+}
+
+.card p{
+    margin: 0;
+}
