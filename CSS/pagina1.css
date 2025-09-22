@@ -1,0 +1,45 @@
+/*
+No css nós expressamos estilos na página.
+Exemplo:"o parágrafo deve ser da cor vermelha"
+
+SELETOR  (quem?)    (parágrafo)  (P)
+ATRIBUTO (o que?)   (cor)        (COLOR)
+VALOR (qual?)       (vermelho)   (RED)
+
+*/ 
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: #50b6e9;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px ridge #000000;
+
+    /* TIPOS DE BORDA
+    Solid, dotted, dashed, double, inset, ouset, ridge, groove
+    */
+
+    }
+
+h1{
+    color: hwb(0 100% 0%);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #50b6e9;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+
+    /* DIREÇÕES DE BORDA 
+    bottom, left, right, top
+    */
+
+}
+
+img{
+    height: 200px;
+    width: 600px;
+    border: 2px solid #aacef8;
+    border-radius: 5px;
+}
+body{
+    background-color: #aacef8;
+}
