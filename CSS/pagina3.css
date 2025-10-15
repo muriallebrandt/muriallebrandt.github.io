@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+div.banner{
+    background-color: aliceblue;
+    color: black;
+}
+
+.cartaz{
+    background-color: aliceblue;
+    color: black;
+}
+
+p{
+    color: aliceblue;
+}
+
+.banner, .cartaz{
+
+    text-align: center;
+   margin: 50px; color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px; color: black;
+
+}
+
+.gatos{
+
+    height: 120px;
+    border-radius: 15%;
+    opacity: 50%;
+    border: 5px solid transparent;
+    /*Para fazer com que a borda não empurre as imagens para outro lado, adicionamos uma borda transparente*/
+
+}
+
+.gatos:hover{
+
+   opacity: 100%;
+
+}
+
+#gato_n1:hover{
+
+    border: 5px solid rgb(77, 15, 15);
+
+}
+
+#gato_n2:hover{
+
+    border: 5px solid crimson;
+
+}
+
+#gato_n3:hover{
+
+    border: 5px solid rgb(36, 4, 10);
+
+}
+
